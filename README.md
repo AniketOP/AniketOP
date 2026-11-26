@@ -1,51 +1,101 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" width="100%" alt="Aniket Kumar, AI engineer. I build LLM systems that answer from real data, then evaluate them until they hold up.">
-</picture>
+<div align="center">
+  <img src="assets/banner.svg" width="100%" alt="Aniket Kumar, AI Engineer: LLM systems and evaluation" />
+</div>
 
-**I build LLM systems that answer from real data, then evaluate them until they hold up.** Retrieval that cites its sources, agents that stay inside their guardrails, and the Python and Java backends that keep both fast.
+<div align="center">
 
-At **Amdocs** my LangGraph agents cut a 4-hour security compliance audit to 35 minutes. At **Vogueish** I shipped production RAG to 5,000+ users with responses under 200 ms.
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket-k-13287a256)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=gmail&logoColor=white)](mailto:aniketsinghkumar11@gmail.com)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-f2773f?style=flat&logo=googlechrome&logoColor=white)](https://aniketop.github.io)
+[![Open to roles](https://img.shields.io/badge/-Open%20to%20AI%20roles-2ea043?style=flat)](mailto:aniketsinghkumar11@gmail.com)
 
-**→ [aniketop.github.io](https://aniketop.github.io)**: ask my résumé a question. It answers only from what's on it, with citations, and says so when it doesn't know.
+</div>
 
-## How I work
+## Hey, I'm Aniket
 
-- **Grounding first.** An answer should point at the chunk it came from, and refuse when retrieval comes back empty. Prompt tweaks come after retrieval quality, not before.
-- **Evaluate against real tasks.** I review model output the way a user would hit it: wrong but confident answers, invented numbers, missing context, tool calls that wander. A demo that works once isn't a result.
-- **Agents with guardrails.** Explicit graphs, typed tool calls and human checkpoints. An agent auditing production servers should be boring and predictable.
-- **Latency is part of correctness.** Async Python, caching and lean services. 180 ms and 800 ms are different products.
+<div align="center">
+  <img src="assets/typing.svg" width="820" alt="AI Engineer | RAG · Agents · LLM Evaluation. Building LLM systems that answer from real data, then testing them until they hold up." />
+</div>
 
-## Projects
+I'm an AI engineer who builds **LLM systems that answer from real data**, then stays with them past the demo: checking how the model actually behaves on real tasks, finding where it breaks, and hardening it until it holds up.
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| [**Echo-RAG**](https://github.com/AniketOP/Echo-RAG) | Chat with your own PDFs: upload, chunk, embed and query without restarting, with answers grounded in the retrieved passages. **Start here for RAG.** | LangChain · FAISS · Llama 3 / Mistral on Groq · Streamlit |
-| [**MeetAI**](https://github.com/AniketOP/MeetAI-The-Intelligent-Meeting-Platform) | Video meetings where AI agents join the call; every meeting gets a transcript, a summary and Q&A afterwards. | Next.js 15 · Stream Video & Chat · OpenAI · Inngest |
-| [**WebhookRelay**](https://github.com/AniketOP/Webhook-Relay) | Fault-tolerant webhook delivery: exponential backoff, `SKIP LOCKED` retry pollers, circuit breakers, a dead-letter queue with replay, HMAC-signed payloads. | Java 21 · Spring Boot · Kafka · PostgreSQL |
-| [**Multi-tenant billing**](https://github.com/AniketOP/Multi-Tenant-Billing-Platform) | Billing for housing societies with three layers of tenant isolation, Kafka-driven invoicing and 100 automated tests. | Java 21 · Spring Boot · Couchbase · React |
-| [**Return-risk model**](https://github.com/AniketOP/Hackathon_HCL_ALVERSE) | Hackathon classifier that flags e-commerce returns before they ship, judged on recall and ROC-AUC rather than accuracy. | Python · XGBoost · Streamlit |
-| [**This portfolio**](https://github.com/AniketOP/AniketOP.github.io) | BM25 retrieval over my résumé in the browser, with spelling correction, cited answers and refusals. No API calls. | HTML · CSS · JavaScript |
+<div align="center">
 
-## Experience
+`LLM Systems` &nbsp; `RAG & Agents` &nbsp; `Model Evaluation` &nbsp; `Backend Engineering`
 
-- **Software Engineer Intern, Amdocs** · Feb–Jun 2026 · LangGraph and Azure OpenAI compliance agents, Java/Spring Boot services, Kubernetes and Jenkins
-- **ML / Backend Developer Intern, Vogueish** · May–Jul 2025 · production RAG with LangChain and Gemini, async Python APIs at 99.9% uptime
-- **B.Tech, Computer Engineering, Delhi Technological University** · 2022–2026
+</div>
 
-**Stack:** Python, Java, TypeScript, SQL · LangChain, LangGraph, Azure OpenAI, vector databases · FastAPI, Spring Boot · PostgreSQL, Redis, Kafka · Docker, Kubernetes, Jenkins
+> If a model can't show where an answer came from, it shouldn't be answering.
 
-## Next
+Lately, that has meant:
 
-Planned, not started yet: open-source tooling for evaluating RAG pipelines and agents, covering retrieval quality, citation faithfulness and suites of known failure cases. I'll link it here when there's code to read.
+- shipping LangGraph and Azure OpenAI agents at **Amdocs** that cut a 4-hour security compliance audit to **35 minutes**
+- running production RAG for **5,000+ users** at **Vogueish**, with responses under 200 ms
+- reviewing model output against real tasks: confident wrong answers, invented numbers, missing context, tool calls that wander
+- building the unglamorous parts that keep AI products up: retries, circuit breakers, tenant isolation, tests
 
-## Get in touch
+Next (planned): open-source tooling for evaluating RAG pipelines and agents. It'll be linked here once there's code to read.
 
-Open to full-time AI engineering roles, on-site or hybrid. The fastest route is **[aniketsinghkumar11@gmail.com](mailto:aniketsinghkumar11@gmail.com)**.
+### Featured work
 
-Elsewhere: [Portfolio](https://aniketop.github.io) · [LinkedIn](https://www.linkedin.com/in/aniket-k-13287a256)
+- **[Echo-RAG](https://github.com/AniketOP/Echo-RAG)**: chat with your own PDFs, with FAISS retrieval and grounded answers from Llama 3 / Mistral on Groq
+- **[MeetAI](https://github.com/AniketOP/MeetAI-The-Intelligent-Meeting-Platform)**: AI agents that join video calls, plus transcripts, summaries and Q&A afterwards
+- **[WebhookRelay](https://github.com/AniketOP/Webhook-Relay)**: fault-tolerant webhook delivery on Kafka, Spring Boot and PostgreSQL
+- **[Multi-tenant billing](https://github.com/AniketOP/Multi-Tenant-Billing-Platform)**: housing-society billing with three layers of tenant isolation
+
+### Say hello
+
+- Portfolio: [aniketop.github.io](https://aniketop.github.io) (ask my résumé a question; it cites its sources)
+- Email: [aniketsinghkumar11@gmail.com](mailto:aniketsinghkumar11@gmail.com)
+- LinkedIn: [in/aniket-k-13287a256](https://www.linkedin.com/in/aniket-k-13287a256)
+
+---
+
+## Languages & Tools
+
+**Languages:**  
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat-square&logo=python&color=353535)
+![Java](https://img.shields.io/badge/-Java-05122A?style=flat-square&logo=openjdk&color=353535)
+![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat-square&logo=typescript&color=353535)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat-square&logo=javascript&color=353535)
+![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat-square&logo=postgresql&color=353535)
+![Bash](https://img.shields.io/badge/-Bash-05122A?style=flat-square&logo=gnubash&color=353535)
+
+**AI, LLMs & Machine Learning:**  
+![LangChain](https://img.shields.io/badge/-LangChain-05122A?style=flat-square&logo=langchain&color=353535)
+![LangGraph](https://img.shields.io/badge/-LangGraph-05122A?style=flat-square&logo=langchain&color=353535)
+![Azure OpenAI](https://img.shields.io/badge/-Azure%20OpenAI-05122A?style=flat-square&logo=openai&color=353535)
+![Gemini](https://img.shields.io/badge/-Gemini-05122A?style=flat-square&logo=googlegemini&color=353535)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-05122A?style=flat-square&logo=huggingface&color=353535)
+![FAISS](https://img.shields.io/badge/-FAISS-05122A?style=flat-square&logo=meta&color=353535)
+![Groq](https://img.shields.io/badge/-Groq-05122A?style=flat-square&color=353535)
+![XGBoost](https://img.shields.io/badge/-XGBoost-05122A?style=flat-square&color=353535)
+![Streamlit](https://img.shields.io/badge/-Streamlit-05122A?style=flat-square&logo=streamlit&color=353535)
+![Jupyter](https://img.shields.io/badge/-Jupyter-05122A?style=flat-square&logo=jupyter&color=353535)
+
+**Backend & Web:**  
+![FastAPI](https://img.shields.io/badge/-FastAPI-05122A?style=flat-square&logo=fastapi&color=353535)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-05122A?style=flat-square&logo=springboot&color=353535)
+![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat-square&logo=nodedotjs&color=353535)
+![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat-square&logo=nextdotjs&color=353535)
+![React](https://img.shields.io/badge/-React-05122A?style=flat-square&logo=react&color=353535)
+![Apache Kafka](https://img.shields.io/badge/-Kafka-05122A?style=flat-square&logo=apachekafka&color=353535)
+
+**Databases:**  
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat-square&logo=postgresql&color=353535)
+![Redis](https://img.shields.io/badge/-Redis-05122A?style=flat-square&logo=redis&color=353535)
+![Couchbase](https://img.shields.io/badge/-Couchbase-05122A?style=flat-square&logo=couchbase&color=353535)
+
+**DevOps & Tools:**  
+![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat-square&logo=docker&color=353535)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-05122A?style=flat-square&logo=kubernetes&color=353535)
+![Ansible](https://img.shields.io/badge/-Ansible-05122A?style=flat-square&logo=ansible&color=353535)
+![Jenkins](https://img.shields.io/badge/-Jenkins-05122A?style=flat-square&logo=jenkins&color=353535)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat-square&logo=git&color=353535)
+![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat-square&logo=linux&color=353535)
+![Postman](https://img.shields.io/badge/-Postman-05122A?style=flat-square&logo=postman&color=353535)
 
 <!--
   Owner: Aniket. Last reviewed: 2026-11-27.
-  Review when: a new project ships, the "Next" project gets its first commit, a role changes, or a job search starts or ends.
+  Review when: a new project ships, the planned evaluation tooling gets its first commit, a role changes, or a job search starts or ends.
 -->
